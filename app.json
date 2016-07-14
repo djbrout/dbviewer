@@ -1,5 +1,5 @@
 {
-  "name": "pgweb",
+  "name": "dbViewer",
   "description": "A web-based frontend to your Postgres database.",
   "website": "https://github.com/sosedoff/pgweb",
   "repository": "https://github.com/sosedoff/pgweb",

@@ -1,1 +1,1 @@
-web: pgweb --url=$DATABASE_URL --listen=$PORT --bind=0.0.0.0 --auth-user=$AUTH_USER --auth-pass=$AUTH_PASS
+web: pgweb --url=postgres://fowytuhxyrzbkg:A_YB7GxeAZcwBi33iOFCHrMosx@ec2-54-221-225-242.compute-1.amazonaws.com:5432/d452ub83ajvmic --listen=$PORT --bind=0.0.0.0 --auth-user=$AUTH_USER --auth-pass=$AUTH_PASS

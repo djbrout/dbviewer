@@ -296,17 +296,17 @@ func (client *Client) query(query string, args ...interface{}) (*Result, error) 
 }
 
 // Close database connection
-func (client *Client) Close() error {
-	if client.tunnel != nil {
-		client.tunnel.Close()
-	}
+//func (client *Client) Close() error {
+//	if client.tunnel != nil {
+//		client.tunnel.Close()
+//	}
+//
+//	if client.db != nil {
+//		return client.db.Close()
+//	}
 
-	if client.db != nil {
-		return client.db.Close()
-	}
-
-	return nil
-}
+//	return nil
+//}
 
 // Fetch all rows as strings for a single column
 func (client *Client) fetchRows(q string) ([]string, error) {

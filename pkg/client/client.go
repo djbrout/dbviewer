@@ -296,7 +296,7 @@ func (client *Client) query(query string, args ...interface{}) (*Result, error) 
 }
 
 // Close database connection
-//func (client *Client) Close() error {
+func (client *Client) Close() error {
 //	if client.tunnel != nil {
 //		client.tunnel.Close()
 //	}
@@ -305,8 +305,9 @@ func (client *Client) query(query string, args ...interface{}) (*Result, error) 
 //		return client.db.Close()
 //	}
 
-//	return nil
-//}
+	return nil
+	
+}
 
 // Fetch all rows as strings for a single column
 func (client *Client) fetchRows(q string) ([]string, error) {

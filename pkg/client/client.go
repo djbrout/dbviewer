@@ -297,13 +297,13 @@ func (client *Client) query(query string, args ...interface{}) (*Result, error) 
 
 // Close database connection
 func (client *Client) Close() error {
-//	if client.tunnel != nil {
-//		client.tunnel.Close()
-//	}
-//
-//	if client.db != nil {
-//		return client.db.Close()
-//	}
+	if client.tunnel != nil {
+		client.tunnel.Close()
+	}
+
+	if client.db != nil {
+		return client.db.Close()
+	}
 
 	return nil
 	

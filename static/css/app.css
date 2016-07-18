@@ -481,6 +481,7 @@
   background: #79589f;
   color: #fff;
   border-color: #fff;
+  visibility: hidden;
 }
 
 #edit_connection i {

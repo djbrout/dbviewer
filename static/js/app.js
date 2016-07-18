@@ -877,11 +877,11 @@ $(document).ready(function() {
   });
 
   $("#edit_connection").on("click", function() {
-    if (connected) {
-      $("#close_connection_window").show();
-    }
+	  //if (connected) {
+	  //$("#close_connection_window").show();
+	  //}
 
-    showConnectionSettings();
+	  //showConnectionSettings();
   });
 
   $("#close_connection").on("click", function() {

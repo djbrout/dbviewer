@@ -31,7 +31,7 @@ test:
 test-all:
 	@./script/test_all.sh
 
-assets: static/
+assets: #static/
 	go-bindata -o pkg/data/bindata.go -pkg data $(BINDATA_OPTS) $(BINDATA_IGNORE) -ignore=[.]gitignore -ignore=[.]gitkeep $<...
 
 dev-assets:

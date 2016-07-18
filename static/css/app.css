@@ -482,10 +482,12 @@
   color: #fff;
   border-color: #fff;
   visibility: hidden;
+  display: none;	
 }
 
 #edit_connection i {
   margin-right: 4px;
+  display: none;
 }
 
 #close_connection_window {
